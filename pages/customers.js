@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import MoreIcon from "@rsuite/icons/More";
 
 const Customers = () => {
   const router = useRouter();
@@ -94,7 +95,7 @@ const CustomersTable = () => {
                   </td>
 
                   <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap space-x-3">
-                    edit
+                    <MoreIcon />
                   </td>
                 </tr>
               </tbody>
